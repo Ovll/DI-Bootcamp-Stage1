@@ -1,0 +1,25 @@
+/* Selector {
+    Property: value;
+} */
+
+body {
+    background-image: url(photo_2021-02-19_20-56-23.jpg);
+}
+h2 {
+    color: red;
+    text-align: center;
+  /*  border: 5px dashed /*solid*/ purple;
+    cursor: pointer;
+}
+button {
+    background-color: red;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}

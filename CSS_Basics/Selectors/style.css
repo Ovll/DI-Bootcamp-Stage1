@@ -1,0 +1,21 @@
+* {
+    color: blue;
+}
+footer p {
+    background-color: brown;
+}
+h1+h4 {
+    background-color: pink;
+}
+ul>li {
+    background-color: seashell;
+}
+a[href="#"] {
+    background-color: magenta;
+}
+li:first-child {
+    background-color: blue;
+}
+li:nth-child(2) {
+    background-color: teal;
+}
