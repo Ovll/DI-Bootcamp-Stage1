@@ -1,0 +1,40 @@
+body {
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+}
+
+li:first-letter {
+    font-size: x-large;
+}
+div#wrap {
+    position: block;
+    width: 630px;
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+    border-style: dotted;
+    border-color: black;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+h1 {
+    border-bottom: dotted;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
