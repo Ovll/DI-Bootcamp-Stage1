@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            background: gold;
+            height: 200px;
+            position: relative;
+            /* This turns the <section> into a point of reference for the <p> */
+        }
+
+        p {
+            background: limegreen;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            /* This makes the <p> freely movable */
+            bottom: 10px;
+            /* 10px from the bottom */
+            /* left: 20px; /* 20px from the left */
+            left: 0;
+            right: 0;
+            /* or width: 100% */
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        I'm in position relative.
+        <p>
+            I'm in position absolute!
+        </p>
+    </section>
+</body>
+
+</html>
