@@ -1,0 +1,47 @@
+body {
+    background-color:#334d99;
+    margin: 0;
+}
+
+#wrap {
+    width: 650px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#content {
+    background-color: #4C63A9;
+    float: right;
+    width: 65%;
+}
+
+#content ul, p ,h1 {
+        list-style-type: none;
+        text-align: center;
+        padding: 10px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    background: #7589C5;
+    width: 35%;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+}
+
+#nav h2 {
+    padding-top: 15px;
+}
+
+#nav ul {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
