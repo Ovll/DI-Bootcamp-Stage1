@@ -1,0 +1,38 @@
+.col-4, .col-6, .col-12 {
+    display: inline-block;
+}
+
+.col-4 {
+    background: gray;
+    height: 200px;
+    width: 33%;
+}
+
+.col-6 {
+    background: pink;
+    height: 200px;
+    width: 50%;
+}
+
+.col-12 {
+    background: black;
+    height: 200px;
+    width: 100%;
+    
+}
+
+@media (min-width: 765px) and (max-width: 960px) {
+    .col-4 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 765px) {
+    .col-4 {
+        width: 100%;
+    }
+}

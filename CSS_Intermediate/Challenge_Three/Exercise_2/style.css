@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    border-bottom: 3px solid;
+}
+
+.p {
+    background: purple;
+        width: 94%;
+        margin: 20px auto;
+    border: 3px solid black;
+    height: 150px;
+}
+.r,
+.g, 
+.o {
+    border: 3px solid black;
+    height: 400px;
+    margin: 20px 2%;
+    width: 28%;
+}
+
+.r {
+    background: red;
+}
+
+.g {
+    background: green;
+}
+
+.o {
+    background: orange;
+}

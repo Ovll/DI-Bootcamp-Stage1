@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    border-bottom: 3px solid;
+}
+
+.g {
+    background: green;
+    width: 92%;
+    margin: 20px auto;
+    border: 3px solid black;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+    box-sizing: border-box;;
+}
+.i, .o, .r, .b {
+    border: 3px solid black;
+    height: 150px;
+    margin: 20px 2%;
+    width: 28%;
+    padding: 0;
+}
+
+.i {
+    border: hidden;
+}
+
+.r {
+    background: red;
+}
+
+.g {
+    background: green;
+}
+
+.o {
+    background: orange;
+}
+.b {
+    background: skyblue;
+}

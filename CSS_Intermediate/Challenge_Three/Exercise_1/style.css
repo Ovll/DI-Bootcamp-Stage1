@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+
+    border-bottom: 3px solid;
+}
+
+.p, .b, .y {
+    border: 3px solid black;
+    height: 100px;
+
+}
+
+.p {
+    background: pink;
+    width: 24%;
+    margin: 20px 2%;
+}
+
+.b {
+    background:lightblue;
+    width: 66%;
+    margin: 20px 2%;
+}
+
+.y {
+    background: yellow;
+    width: 94%;
+    margin: 20px auto;
+}
